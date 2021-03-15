@@ -1,4 +1,4 @@
-CFLAGS=-g -Wall -O2
+CFLAGS=-g -Wall -O2 -fno-stack-protector
 PREFIX=/usr/bin
 
 all: eeprog 
